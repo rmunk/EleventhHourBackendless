@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_id": "eleventh-hour-359e6",
+    "project_number": "559192445014",
+    "name": "Eleventh Hour"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559192445014:android:4686d493f41113c7",
+        "client_id": "android:hr.nas2skupa.eleventhhour",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "hr.nas2skupa.eleventhhour",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559192445014-90scplpnm7v7qn54rpbhre5olobvpdmg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hr.nas2skupa.eleventhhour",
+            "certificate_hash": "359B22DABF1B1F96E6F8E133C69E1AD23329411B"
+          }
+        },
+        {
+          "client_id": "559192445014-apr9ma2etlenvpulkqps0ed25dl8ioqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-75970612-1"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559192445014-apr9ma2etlenvpulkqps0ed25dl8ioqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
