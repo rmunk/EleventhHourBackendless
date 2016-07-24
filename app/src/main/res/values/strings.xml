@@ -8,9 +8,8 @@
 
     <string name="title_text">Google Sign-In\nQuickstart</string>
 
-    <!-- Server Client ID.  This should be a valid Web OAuth 2.0 Client ID obtained
-         from https://console.developers.google.com/ -->
-    <string name="server_client_id">559192445014-90scplpnm7v7qn54rpbhre5olobvpdmg.apps.googleusercontent.com</string>
+    <string name="google_server_client_id">559192445014-apr9ma2etlenvpulkqps0ed25dl8ioqe.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1707039629508587</string>
 
     <!-- Sign-in status messages -->
     <string name="signed_in_fmt">Signed in as: %s</string>
@@ -53,6 +52,7 @@
     <string name="msg_sign_in_wrong_credentials">Wrong username or password.</string>
     <string name="msg_sign_in_error">Sorry, we are unable to sign you in at the moment. Please try again later.</string>
     <string name="msg_sign_in_no_network">You need network access to sign in.</string>
+    <string name="msg_sign_in_google_failed">Sorry, there was a problem signing you in with your Google account. Please try again later or use email sign in.</string>
 
     <!-- RegisterFragment -->
     <string name="register_username">Username</string>

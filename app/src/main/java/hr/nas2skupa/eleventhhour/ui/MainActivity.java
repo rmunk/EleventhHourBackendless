@@ -1,4 +1,4 @@
-package hr.nas2skupa.eleventhhour;
+package hr.nas2skupa.eleventhhour.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +13,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import hr.nas2skupa.eleventhhour.R;
+import hr.nas2skupa.eleventhhour.ui.auth.SignInActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -94,7 +97,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_send) {
 
         } else if (id == R.id.nav_sign_out) {
-            startActivity(new Intent(SignInActivity.ACTION_SIGN_OUT));
+            startActivity(new Intent(SignInActivity.ACTION_SIGN_OUT).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

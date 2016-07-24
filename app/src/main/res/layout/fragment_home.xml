@@ -2,7 +2,7 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context="hr.nas2skupa.eleventhhour.HomeFragment"
+             tools:context=".ui.HomeFragment"
              android:background="@drawable/back">
 
     <!-- TODO: Update blank fragment layout -->

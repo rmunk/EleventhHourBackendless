@@ -26,7 +26,7 @@
             android:inputType="textPersonName"
             android:maxLines="1"
             android:singleLine="true"
-            android:text="ranko.munk@nas2skupa.hr" />
+            android:text="ranko.munk@gmail.com" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -84,7 +84,8 @@
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:layout_below="@+id/button_forgot_password"
-        android:layout_marginTop="16dp">
+        android:layout_marginTop="16dp"
+        android:id="@+id/layout_progress">
 
         <ProgressBar
             android:id="@+id/progress_bar"
@@ -94,17 +95,50 @@
             android:indeterminate="true"
             android:visibility="gone" />
 
-        <TextView
-            android:id="@+id/text_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center_horizontal"
-            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-            android:textColor="#d50000"
-            android:visibility="gone"
-            tools:visibility="visible"
-            tools:text="@string/msg_sign_in_error" />
     </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or simply sign in using your social account"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead.Inverse"
+        android:layout_below="@+id/layout_progress" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/layout_social"
+        android:layout_below="@+id/textView">
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:id="@+id/button_google_plus"
+            android:src="@drawable/google_plus_box"
+            android:layout_margin="16dp"
+            android:tint="#ccffffff"
+            />
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:id="@+id/button_facebook"
+            android:src="@drawable/facebook_box"
+            android:layout_margin="16dp"
+            android:tint="#ccffffff" />
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:id="@+id/button_twitter"
+            android:src="@drawable/twitter_box"
+            android:layout_margin="16dp"
+            android:tint="#ccffffff" />
+    </LinearLayout>
 
 </RelativeLayout>
